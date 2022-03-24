@@ -99,7 +99,7 @@ a:hover {
     position: relative;
 }
 .navbar-expand-lg .navbar-nav .nav-link.active{
-    color: #330a0a;
+    color: #c01b1b;
     
 }
 .btn {
@@ -126,9 +126,6 @@ a:hover {
     
 }
 
-
-
-
 .col-2 {
     flex-basis: 100%;
     min-width: 300px;
@@ -146,4 +143,12 @@ a:hover {
     margin: 30px 0;
     border-radius: 30px;
     transition: background 0.5s;
+}
+.column-left {
+    min-height: 750px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50,58,69)));
+    background-image: url("../images/pic.jpg");
+    background-image: linear-gradient(180deg, rgba(50,58,69,0.55)), rgba(50,58,69,0.74)));
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
 }
