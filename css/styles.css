@@ -18,6 +18,7 @@ body{
 a {
     color: #353435;
     font-weight: 500;
+    font-size: 1.4rem;
 }
 a:hover {
     color: rgb(255, 196, 255);
@@ -164,7 +165,7 @@ a:hover {
 .column-right .paragraph {
     margin-top: 15px;
     padding: 1rem, 5rem, 1rem, 5rem;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     color: #b1b4bd;
     line-height: 1.4;
     text-align: justify;
@@ -204,7 +205,8 @@ a:hover {
     text-align: center;
 }
 .text-warning h2{
-    color: #b1b4bd;
+    color: #ede5eed7;
+    text
 }
 
 .footer p{
@@ -219,4 +221,11 @@ a:hover {
     text-align: center;
     padding-top: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .text-warning p{
+      color: #ffff;
+  }
+  .col-md-3 P
+  {
+      color: rgb(224, 213, 213);
   }
